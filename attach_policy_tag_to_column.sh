@@ -6,7 +6,9 @@
 bq show --schema --format=prettyjson project-id:dataset.customer_data > schema.json
 
 #2 Modify the schema.json file to add policy tag as below
-#update the highlighted string with your actual policy tag id for dtiving_licence that you can copy from console or list using python script
+#update the highlighted string with your actual policy tag id for dtiving_licence 
+#that you can copy from console or list using python script
+#Checkout schema.json file for updated example
 
 [
  ...
