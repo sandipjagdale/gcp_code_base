@@ -18,7 +18,7 @@ Follow below steps:
 2. After executing the code you should see a taxonomy and policy tag structure as below:
   ![taxonomy](https://github.com/user-attachments/assets/84d7a0e3-6bff-4167-9968-729b54156311)
  
-4. Then repeat the same process to create category and sub-tag for all required tags.
+4. Then repeat the same process to create medium and low category, and sub-tag for all required tags.
 5. download schema.json file in your local directory
 6. Next execute the attach_policy_tag_to_column.sh using schema.json
 7. this will attach a policy tag to a table column as below
