@@ -15,7 +15,7 @@ bq show --schema --format=prettyjson project-id:dataset.customer_data > schema.j
         "name": "customer_driving_license",
         "policyTags": {
           "names": [
-            "projects/yourproject/locations/us/taxonomies/8287803005171206245/policyTags/2595403380570734755"
+            "projects/yourproject/locations/us/taxonomies/12345678906245/policyTags/1234567894755"
           ]
         },
         "type": "STRING"
