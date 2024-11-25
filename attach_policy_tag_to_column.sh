@@ -10,13 +10,15 @@ bq show --schema --format=prettyjson project-id:dataset.customer_data > schema.j
 
 [
  ...
- {
-   "name": "customer_driving_licence",
-   "type": "STRING",
-   "mode": "REQUIRED",
-   "policyTags": {
-     "names": ["projects/project-id/locations/location/taxonomies/taxonomy-id/policyTags/policytag-id"]
-   }
+{
+        "mode": "NULLABLE",
+        "name": "customer_driving_license",
+        "policyTags": {
+          "names": [
+            "projects/yourproject/locations/us/taxonomies/8287803005171206245/policyTags/2595403380570734755"
+          ]
+        },
+        "type": "STRING"
  },
  ...
 ]
