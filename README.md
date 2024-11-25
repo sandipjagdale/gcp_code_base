@@ -23,4 +23,5 @@ Follow below steps:
 6. Next execute the attach_policy_tag_to_column.sh using schema.json
 7. this will attach a policy tag to a table column as below
 ![columns wih policy tag](https://github.com/user-attachments/assets/9a5f7548-fb96-49eb-b47f-e81b08d3516b)
+8. Use set_permissions.sh to grant or revoke permissions
 
