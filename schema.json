@@ -1,0 +1,45 @@
+{
+  "creationTime": "1732569225204",
+  "etag": "QLclxmnTHhszLcjGyg==",
+  "id": "yourproject:your_dataset.customer_data",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1732575318770",
+  "location": "US",
+  "numActiveLogicalBytes": "0",
+  "numBytes": "0",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numRows": "0",
+  "numTotalLogicalBytes": "0",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "customer_id",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "customer_name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "customer_driving_license",
+        "policyTags": {
+          "names": [
+            "projects/yourproject/locations/us/taxonomies/8287803005171206245/policyTags/2595403380570734755"
+          ]
+        },
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/yourproject/datasets/your_dataset/tables/customer_data",
+  "tableReference": {
+    "datasetId": "your_dataset",
+    "projectId": "yourproject",
+    "tableId": "customer_data"
+  },
+  "type": "TABLE"
+}
